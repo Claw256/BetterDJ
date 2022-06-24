@@ -29,7 +29,7 @@ namespace BetterDJ
         }
         public void PlayAudioClip() 
         {
-            var allAudioSources = VRCPlayer.field_Internal_Static_VRCPlayer_0.field_Private_VRCAvatarManager_0.prop_GameObject_0.GetComponentsInChildren<VRC.SDK3.Components.VRCSpatialAudioSource>(true);
+            var allAudioSources = VRCPlayer.field_Internal_Static_VRCPlayer_0.field_Private_VRCAvatarManager_0.prop_GameObject_0.GetComponentsInChildren<VRCSpatialAudioSource>(true);
             foreach (var audioSource in allAudioSources)
             {
                 if (audioSource != null)
