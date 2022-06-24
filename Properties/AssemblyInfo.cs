@@ -35,5 +35,5 @@ using MelonLoader;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-[assembly: MelonInfo(typeof(BetterDJ.Program), "BetterDJ", "0.0.1", "Rexami")]
+[assembly: MelonInfo(typeof(BetterDJ.Main), "BetterDJ", "0.0.1", "Rexami")]
 [assembly: MelonGame("VRChat", "VRChat")] 
